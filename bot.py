@@ -133,7 +133,7 @@ while True:
     if status_change == 1:
         print('Отравка актуального расписания')
         status_change = 0
-        api.messages.send(group_id='186081577', peer_id='2000000004',message=cur_info)
+        api.messages.send(group_id='186081577', peer_id='2000000003',message=cur_info)
         cur_info = info
         open('cur_info.txt','w').write(cur_info)
 
